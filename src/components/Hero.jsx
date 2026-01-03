@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[90vh] w-full overflow-hidden">
+    <section className="relative min-h-[90vh] w-full overflow-hidden pt-20">
       {/* Background Image */}
       <Image
         src="/images/hero-bg.jpg"
@@ -46,7 +46,7 @@ export default function Hero() {
   hover:scale-105
   hover:shadow-lg hover:bg-red-700"
             >
-              Read More
+              Order Today
             </button>
           </motion.div>
 
@@ -55,7 +55,7 @@ export default function Hero() {
             initial={{ opacity: 0, x: 60 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.9 }}
-            className="relative hidden lg:flex justify-center"
+            className="relative  lg:flex justify-center"
           >
             <Image
               src="/images/springtopbottle.png"
