@@ -182,7 +182,7 @@ export const NavbarLogo = ({ visible }) => {
       transition={{ duration: 0.25 }}
       className="relative z-20 mr-4 flex items-center space-x-2"
     >
-      <img src="images/spring-logo.png" className="" width="200" />
+      <img src="images/spring-logo.png" className="" width="150" />
     </motion.a>
   );
 };

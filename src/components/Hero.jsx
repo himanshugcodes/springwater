@@ -37,7 +37,15 @@ export default function Hero() {
               for your body.
             </p>
 
-            <button className="mt-8 rounded-full bg-red-600 px-8 py-4 text-sm font-medium text-white transition hover:bg-red-700">
+            <button
+              className="mt-8 rounded-full
+  bg-gradient-to-r from-[#00B4D8] to-[#0077B6]
+  px-8 py-4
+  text-white font-medium
+  transition-all duration-300
+  hover:scale-105
+  hover:shadow-lg hover:bg-red-700"
+            >
               Read More
             </button>
           </motion.div>
@@ -58,21 +66,21 @@ export default function Hero() {
             />
 
             {/* Decorative Leaves */}
-            <Image
+            {/* <Image
               src="/images/leaf01.png"
               alt="Leaf"
-              width={80}
-              height={80}
+              width={100}
+              height={100}
               className="absolute left-35 top-32"
             />
 
             <Image
               src="/images/leaf02.png"
               alt="Leaf"
-              width={90}
-              height={90}
+              width={100}
+              height={100}
               className="absolute right-35 bottom-40"
-            />
+            /> */}
           </motion.div>
         </div>
       </div>

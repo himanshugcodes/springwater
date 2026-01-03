@@ -20,15 +20,15 @@ export function NavbarDemo() {
     },
     {
       name: "About Us",
-      link: "#about",
+      link: "about",
     },
     {
-      name: "Contact",
-      link: "#contact",
+      name: "Media",
+      link: "media",
     },
     {
       name: "Franchise",
-      link: "#franchise",
+      link: "franchise",
     },
     {
       name: "Contact Us",
