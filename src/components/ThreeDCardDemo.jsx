@@ -25,7 +25,7 @@ export function ThreeDCardDemo() {
           Choose your water
         </h2>
         {/* Grid for 2 cards */}
-        <div className="grid grid-cols-2 w-full gap-4 md:grid-cols-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-4 md:grid-cols-2">
           {products.map((product, index) => (
             <CardContainer key={index} className="inter-var w-full">
               <CardBody className="group/card relative h-auto w-full rounded-xl border border-black/[0.1] bg-gray-50 p-6 dark:border-white/[0.2] dark:bg-black dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1]">
