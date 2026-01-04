@@ -33,11 +33,14 @@ export default function HomeAbout() {
               </p>
               <ul className="mt-10 space-y-4 divide-y-1">
                 {features.map((feature) => (
-                  <li key={feature.count} className="flex gap-x-4  space-y-4">
-                    <span className="text-black-300 text-lg font-bold text-sky-500">
+                  <li
+                    key={feature.count}
+                    className="flex gap-x-1 md:gap-x-4  space-y-4"
+                  >
+                    <span className="text-black-300 text-sm md:text-lg font-bold text-sky-500">
                       {feature.count}
                     </span>
-                    <span className="text-black-300 text-md font-bold">
+                    <span className="text-gray-700 text-sm md:text-lg font-bold">
                       {feature.description}
                     </span>
                   </li>
@@ -47,7 +50,7 @@ export default function HomeAbout() {
           </div>
           <img
             alt="Product screenshot"
-            src="/images/about-bg.jpg"
+            src="/images/about-product.webp"
             width={400}
             height={400}
             className="w-3xl rounded-xl shadow-xl ring-1 ring-white/10 sm:w-228 md:-ml-4 lg:-ml-0"

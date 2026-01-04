@@ -28,35 +28,35 @@ export function HomeTestimonial() {
     </>
   );
 }
-
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+      "The taste of this spring water is noticeably pure and refreshing. It feels light, clean, and keeps me hydrated throughout long working hours without any heaviness.",
+    name: "Rohit Verma",
+    title: "Senior Marketing Manager, Hardoi",
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
-  },
-  {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
+      "As a fitness enthusiast, hydration is extremely important for me. This spring premium water has become my daily choice because of its natural taste and consistent quality.",
+    name: "Ananya Sharma",
+    title: "Fitness Trainer & Wellness Coach, Shahjahanpur",
   },
   {
     quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
+      "We started using this spring water for our cafe, and our customers immediately noticed the difference. The quality and clarity perfectly match a premium dining experience.",
+    name: "Frisky Panda",
+    title: "Cafe Owner, Lucknow",
   },
   {
     quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
+      "I appreciate that this water comes from a natural spring source. It tastes fresh, has no aftertaste, and is ideal for my family’s everyday consumption.",
+    name: "Neha Gupta",
+    title: "Homemaker, Noida",
+  },
+  {
+    quote:
+      "During long cycling sessions and outdoor activities, this spring water keeps me energized and well-hydrated. It’s clean, crisp, and truly premium.",
+    name: "Vikram Singh",
+    title: "CEO, Delhi",
   },
 ];

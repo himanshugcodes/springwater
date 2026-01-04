@@ -2,10 +2,11 @@ import {
   FaTwitter,
   FaFacebookF,
   FaInstagram,
-  FaGooglePlusG,
   FaArrowUp,
   FaYoutube,
 } from "react-icons/fa";
+import FloatingCall from "./FloatingCall";
+import TwakTo from "./TwakTo";
 
 export default function Footer() {
   return (
@@ -43,7 +44,6 @@ export default function Footer() {
           )}
         </div>
       </div>
-
       {/* Bottom Bar */}
       <div className="border-t border-sky-500  text-bold py-4 text-center text-sm text-white-200">
         All Rights Reserved - 2026. Designed By{" "}
@@ -51,7 +51,6 @@ export default function Footer() {
           Web by Himanshu
         </a>
       </div>
-
       {/* Scroll To Top */}
       {/* <button
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
@@ -59,6 +58,8 @@ export default function Footer() {
       >
         <FaArrowUp />
       </button> */}
+      <FloatingCall />
+      <TwakTo />
     </footer>
   );
 }

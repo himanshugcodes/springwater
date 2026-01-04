@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="relative w-full overflow-hidden pt-16 min-h-[75vh] lg:min-h-[90vh]">
       {/* Background Image */}
       <Image
-        src="/images/hero-bg.jpg"
+        src="/images/hero-bg.webp"
         alt="Natural spring water"
         fill
         priority
@@ -57,7 +57,7 @@ export default function Hero() {
             className="flex justify-center"
           >
             <Image
-              src="/images/springtopbottle.png"
+              src="/images/springtopbottle.webp"
               alt="Premium Mineral Water Bottle"
               width={420}
               height={300}
