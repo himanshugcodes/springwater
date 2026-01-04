@@ -21,7 +21,7 @@ export function ThreeDCardDemo() {
     <div className="bg-[#edf1f1] py-24">
       <div className="mx-auto max-w-7xl px-6 text-center">
         <p className="text-sm font-semibold text-sky-500">Our Products</p>
-        <h2 className="mt-2 text-4xl font-bold text-black-900">
+        <h2 className="mt-2 mb-8 text-4xl font-bold text-black-900">
           Choose your water
         </h2>
         {/* Grid for 2 cards */}

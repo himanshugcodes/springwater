@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 export default function Hero() {
   return (
-    <section className="relative w-full overflow-hidden pt-16 min-h-[80vh] lg:min-h-[90vh]">
+    <section className="relative w-full overflow-hidden pt-16 min-h-[75vh] lg:min-h-[90vh]">
       {/* Background Image */}
       <Image
         src="/images/hero-bg.jpg"
@@ -28,7 +28,7 @@ export default function Hero() {
             transition={{ duration: 0.7 }}
             className="text-white text-center lg:text-left"
           >
-            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-semibold leading-tight">
+            <h1 className="text-5xl sm:text-4xl lg:text-6xl font-bold leading-tight">
               Spring Premium <br className="hidden sm:block" />
               Drinking Water
             </h1>
