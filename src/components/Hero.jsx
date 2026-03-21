@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 export default function Hero() {
   return (
-    <section className="relative w-full overflow-hidden pt-16 min-h-[75vh] lg:min-h-[90vh]">
+    <section className="relative w-full overflow-hidden pt-16 min-h-[75vh] lg:min-h-[100vh]">
       {/* Background Image */}
       <Image
         src="/images/hero-bg.webp"

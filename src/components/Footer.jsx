@@ -10,9 +10,19 @@ import TwakTo from "./TwakTo";
 
 export default function Footer() {
   return (
-    <footer className="relative bg-gradient-to-b from-grey-400 to-sky-700 text-white">
+    <footer
+      className="relative text-black"
+      style={{
+        backgroundImage: "url('/footer-bg.webp')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      {/* Light overlay for readability */}
+      <div className="absolute inset-0 bg-white/40" />
       {/* Main Footer */}
-      <div className="mx-auto max-w-7xl px-6 py-20 text-center">
+      <div className="mx-auto max-w-7xl px-6 py-20 text-center relative z-10">
         {/* Logo */}
         <div className="flex flex-col items-center gap-2">
           <img
@@ -23,7 +33,7 @@ export default function Footer() {
         </div>
 
         {/* Description */}
-        <p className="mx-auto mt-6 max-w-xl text-md text-white font-bold">
+        <p className="mx-auto mt-6 max-w-xl text-md text-black font-bold">
           We use only safe materials and modern technologies to preserve the
           freshness of water until the last sip. Clean drinking water should be
           available to everyone. We work to make it possible.
@@ -36,7 +46,7 @@ export default function Footer() {
               <a
                 key={index}
                 href="#"
-                className="flex h-12 w-12 items-center justify-center rounded-full bg-white text-sky-500 transition hover:scale-110 hover:bg-stone-900"
+                className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-r from-[#00B4D8] to-[#0077B6] text-white  transition hover:scale-110 hover:sahdow-5xl"
               >
                 {Icon}
               </a>

@@ -5,7 +5,7 @@ import { HiMapPin, HiPhone, HiEnvelope } from "react-icons/hi2";
 export default function Contact() {
   return (
     <>
-      <section className="relative bg-white py-24">
+      <section className="relative bg-white py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-16 lg:grid-cols-2">
             {/* LEFT CONTENT */}
@@ -73,19 +73,9 @@ export default function Contact() {
             {/* RIGHT FORM */}
             <form className="rounded-2xl bg-gray-50 p-8 shadow-lg">
               <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-                <div>
+                <div className="sm:col-span-2">
                   <label className="block text-sm font-medium text-gray-700">
-                    First name
-                  </label>
-                  <input
-                    type="text"
-                    className="mt-2 w-full rounded-md border border-gray-300 px-3 py-2 focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-sm font-medium text-gray-700">
-                    Last name
+                    Full name
                   </label>
                   <input
                     type="text"
@@ -134,7 +124,7 @@ export default function Contact() {
           </div>
         </div>
       </section>
-      <div className="">
+      {/* <div className="">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112855.03924784278!2d79.76467412180301!3d27.879871040729924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399fbcd7421e411d%3A0x52d38f42aa04eb79!2sShahjahanpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1767520705752!5m2!1sen!2sin"
           width="100%"
@@ -145,7 +135,7 @@ export default function Contact() {
           referrerPolicy="no-referrer-when-downgrade"
           className="w-full"
         />
-      </div>
+      </div> */}
     </>
   );
 }

@@ -1,16 +1,16 @@
 import Contact from "../components/Contact";
 import Hero from "../components/Hero";
 import HomeAbout from "../components/HomeAbout";
-// import HomeProducts from "../components/HomeProducts";
+import HomeFeatures from "../components/HomeFeatures";
 import { HomeTestimonial } from "../components/HomeTestimonial";
-import { ThreeDCardDemo } from "../components/ThreeDCardDemo";
 
 export default function Home() {
   return (
     <main>
       <Hero />
+      <HomeFeatures />
       <HomeAbout />
-      <ThreeDCardDemo />
+
       <HomeTestimonial />
       <Contact />
     </main>
