@@ -215,7 +215,7 @@ const Page = () => {
           </svg>
         </div>
         <div className="relative max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-neutral-900 leading-tight mb-6">
+          <h1 className="text-5xl md:text-6xl lg:text-6xl font-black text-neutral-900 leading-tight mb-6">
             <span className="text-sky-500">About </span>Us
           </h1>
           <div className="flex items-center justify-center gap-4">

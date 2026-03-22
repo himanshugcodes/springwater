@@ -159,8 +159,9 @@ export default function FranchiseSection() {
 
         <div className="relative max-w-4xl mx-auto text-center">
           {/* Heading */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-neutral-900 leading-tight mb-6">
+          <h1 className="text-4xl md:text-6xl lg:text-6xl font-black text-neutral-900 leading-tight mb-6">
             <span className="text-sky-500"> Franchise </span>
+            Opportunity
           </h1>
 
           {/* Divider with drop icon */}
@@ -191,15 +192,9 @@ export default function FranchiseSection() {
           </div>
         </div>
       </section>
-      <section
-        className="relative overflow-hidden py-20 px-6"
-        style={{
-          background:
-            "linear-gradient(160deg, #f0f9ff 0%, #e0f2fe 50%, #bae6fd 100%)",
-        }}
-      >
+      <section className="relative overflow-hidden py-20 px-6">
         {/* Decorative blobs */}
-        <div
+        {/* <div
           className="pointer-events-none absolute -top-24 -right-24 w-96 h-96 rounded-full opacity-20"
           style={{
             background: "radial-gradient(circle, #0ea5e9 0%, transparent 70%)",
@@ -210,7 +205,7 @@ export default function FranchiseSection() {
           style={{
             background: "radial-gradient(circle, #38bdf8 0%, transparent 70%)",
           }}
-        />
+        /> */}
 
         <div className="relative max-w-6xl mx-auto">
           {/* Header */}
@@ -218,8 +213,8 @@ export default function FranchiseSection() {
             <span className="inline-block text-xs font-bold tracking-widest uppercase mb-4 px-4 py-1.5 rounded-full text-sky-500 bg-sky-100">
               Franchise Opportunity
             </span>
-            <h2 className="text-4xl md:text-5xl font-black text-neutral-900 leading-tight mb-4">
-              Grow with <span className="text-sky-500">Spring Water</span>
+            <h2 className="mt-2 mb-2 text-4xl font-bold text-neutral-900 leading-tight">
+              Grow with Spring Water
             </h2>
             <p className="text-base md:text-lg text-neutral-500 max-w-2xl mx-auto leading-relaxed">
               Join our growing network of franchise partners across the country.
@@ -286,7 +281,7 @@ export default function FranchiseSection() {
                 <span className="inline-block text-xs font-bold tracking-widest uppercase mb-6 px-3 py-1 rounded-full bg-white/15 text-white">
                   Limited Spots Available
                 </span>
-                <h3 className="text-3xl font-black text-white leading-snug mb-4">
+                <h3 className="text-4xl font-black text-white leading-snug mb-4">
                   Ready to own your Spring franchise?
                 </h3>
                 <p className="text-sky-100 text-sm leading-relaxed mb-8 ">

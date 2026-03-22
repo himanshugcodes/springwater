@@ -20,19 +20,19 @@ export function NavbarDemo() {
     },
     {
       name: "About Us",
-      link: "about",
+      link: "/about",
     },
     {
       name: "Media",
-      link: "media",
+      link: "/media",
     },
     {
       name: "Franchise",
-      link: "franchise",
+      link: "/franchise",
     },
     {
       name: "Contact Us",
-      link: "contact",
+      link: "/contact",
     },
   ];
 
@@ -76,13 +76,6 @@ export function NavbarDemo() {
               </a>
             ))}
             <div className="flex w-full flex-col gap-4">
-              {/* <NavbarButton
-                onClick={() => setIsMobileMenuOpen(false)}
-                variant="gradient"
-                className="w-full"
-              >
-                Login
-              </NavbarButton> */}
               <NavbarButton
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="primary"

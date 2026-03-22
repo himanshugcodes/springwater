@@ -177,7 +177,7 @@ export const MobileNavToggle = ({ isOpen, onClick }) => {
 export const NavbarLogo = ({ visible }) => {
   return (
     <motion.a
-      href="#"
+      href="/"
       animate={{ scale: visible ? 0.9 : 1 }}
       transition={{ duration: 0.25 }}
       className="relative z-20 mr-4 flex items-center space-x-2"

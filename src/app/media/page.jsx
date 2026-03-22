@@ -84,10 +84,9 @@ export default function MediaSection() {
             />
           </svg>
         </div>
-
         <div className="relative max-w-4xl mx-auto text-center">
           {/* Heading */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-neutral-900 leading-tight mb-6">
+          <h1 className="text-4xl md:text-6xl lg:text-6xl font-black text-neutral-900 leading-tight mb-6">
             <span className="text-sky-500"> Media & </span>Press
           </h1>
 
@@ -140,8 +139,8 @@ export default function MediaSection() {
             <span className="inline-block text-xs font-bold tracking-widest uppercase mb-4 px-4 py-1.5 rounded-full text-sky-500 bg-sky-100">
               Media & Press
             </span>
-            <h2 className="text-4xl md:text-5xl font-black text-neutral-900 leading-tight mb-4">
-              Spring in the <span className="text-sky-500">Spotlight</span>
+            <h2 className="mt-2 mb-2 text-4xl font-bold text-neutral-900 leading-tight">
+              Spring in the Spotlight
             </h2>
             <p className="text-base md:text-lg text-neutral-500 max-w-2xl mx-auto leading-relaxed">
               From national newspapers to industry awards — here's what the
