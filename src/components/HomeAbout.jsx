@@ -10,7 +10,16 @@ export default function HomeAbout() {
       }}
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto grid grid-cols-1 gap-x-8 lg:grid-cols-2 items-center">
+        {/* Header */}
+        <div className="text-center mb-8">
+          {/* <span className="inline-block text-xs font-bold tracking-widest uppercase mb-2 px-4 py-1.5 rounded-full text-sky-500 bg-sky-100">
+          Features
+        </span> */}
+          <h2 className="mt-2 mb-2 text-4xl font-bold text-neutral-900 leading-tight">
+            Choose Your Size
+          </h2>
+        </div>
+        <div className="mx-auto grid grid-cols-1 gap-x-8 gap-3 lg:grid-cols-2 items-center">
           <img
             alt="Product screenshot"
             src="/images/about-product.webp"

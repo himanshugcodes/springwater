@@ -2,10 +2,11 @@
 
 import Image from "next/image";
 import { motion } from "motion/react";
+import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative w-full overflow-hidden pt-16 min-h-[75vh] lg:min-h-[100vh]">
+    <section className="relative w-full overflow-hidden pt-16 min-h-[75vh] lg:min-h-[110vh]">
       {/* Background Image */}
       <Image
         src="/images/hero-bg.webp"
@@ -19,7 +20,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/30" />
 
       {/* Main Content */}
-      <div className="relative z-10 mx-auto flex items-center min-h-[75vh] lg:min-h-[90vh] max-w-7xl px-4 sm:px-6 lg:px-10">
+      <div className="relative z-10 mx-auto flex items-center min-h-[75vh] lg:min-h-[88vh] max-w-7xl px-4 sm:px-6 lg:px-10">
         <div className="grid w-full grid-cols-1 gap-10 lg:grid-cols-2 items-center">
           {/* Text Section */}
           <motion.div
@@ -54,14 +55,14 @@ export default function Hero() {
             initial={{ opacity: 0, x: 40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="flex justify-center"
+            className="absolute bottom-0 right-0 left-0 flex justify-center lg:justify-end pointer-events-none"
           >
             <Image
               src="/images/springtopbottle.webp"
               alt="Premium Mineral Water Bottle"
               width={420}
               height={300}
-              className="object-contain sm:w-[480px] lg:w-[620px]"
+              className="object-contain w-[260px] sm:w-[400px] lg:w-[620px]"
             />
           </motion.div>
         </div>

@@ -10,6 +10,7 @@ import {
   MobileNavToggle,
   MobileNavMenu,
 } from "@/components/ui/resizable-navbar";
+import Link from "next/link";
 import { useState } from "react";
 
 export function NavbarDemo() {
@@ -47,7 +48,9 @@ export function NavbarDemo() {
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
             {/* <NavbarButton variant="secondary">Login</NavbarButton> */}
-            <NavbarButton variant="primary">Book a call</NavbarButton>
+            <Link href="/contact">
+              <NavbarButton variant="primary">Book a call</NavbarButton>
+            </Link>
           </div>
         </NavBody>
 

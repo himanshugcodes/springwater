@@ -3,7 +3,7 @@ import Image from "next/image";
 const features = [
   {
     id: "01",
-    title: "Balance of taste and natural purity",
+    title: "Balanced Taste & Purity",
     description:
       "Nature's perfect formula — untouched minerals and crisp clarity in every sip, straight from the source.",
     icon: (
@@ -79,7 +79,7 @@ const features = [
   },
   {
     id: "02",
-    title: "Your daily source of energy and freshness",
+    title: "Fresh Source Of Energy",
     description:
       "Start every morning recharged. Pure spring water replenishes your body and sharpens your focus all day long.",
     icon: (
@@ -175,7 +175,6 @@ const features = [
     ),
   },
 ];
-
 const Page = () => {
   return (
     <>
@@ -371,12 +370,13 @@ const Page = () => {
 
       {/* ── FEATURES ── */}
       <section className="relative overflow-hidden py-15 px-6">
+        {/* Header */}
         <div className="text-center mb-8">
-          <span className="inline-block text-xs font-bold tracking-widest uppercase mb-2 px-4 py-1.5 rounded-full text-sky-500 bg-sky-100">
-            Features
-          </span>
+          {/* <span className="inline-block text-xs font-bold tracking-widest uppercase mb-2 px-4 py-1.5 rounded-full text-sky-500 bg-sky-100">
+          Features
+        </span> */}
           <h2 className="mt-2 mb-2 text-4xl font-bold text-neutral-900 leading-tight">
-            Spring Premium Water
+            Why Spring?
           </h2>
           <p className="text-base md:text-lg max-w-3xl mx-auto text-neutral-500">
             Natural water with no additives or processing, created by nature. We
@@ -384,18 +384,19 @@ const Page = () => {
             freshness of water until the last sip.
           </p>
         </div>
-        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
+
+        {/* Cards */}
+        <div className="mx-auto max-w-7xl px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((f) => (
             <div
               key={f.id}
               className="relative bg-white rounded-3xl p-8 flex flex-col items-center text-center border border-sky-100 shadow-xl hover:shadow-sky-200 hover:-translate-y-1.5 transition-all duration-300 cursor-default"
             >
-              <span className="absolute top-5 right-6 text-[0.7rem] font-bold tracking-widest text-sky-200">
-                {f.id}
-              </span>
+              {/* Icon */}
               <div className="mb-6 flex items-center justify-center w-24 h-24 rounded-2xl bg-gradient-to-br from-sky-100 to-sky-200">
                 {f.icon}
               </div>
+
               <h3 className="text-xl font-bold text-neutral-700 mb-3 leading-snug">
                 {f.title}
               </h3>
