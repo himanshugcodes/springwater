@@ -58,7 +58,7 @@ export default function Hero() {
             className="absolute bottom-0 right-0 left-0 flex justify-center lg:justify-end pointer-events-none"
           >
             <Image
-              src="/images/springtopbottle.webp"
+              src="/images/springtopbottle.png"
               alt="Premium Mineral Water Bottle"
               width={420}
               height={300}
