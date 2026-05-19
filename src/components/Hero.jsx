@@ -20,7 +20,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/30" />
 
       {/* Main Content */}
-      <div className="relative z-10 mx-auto flex items-center min-h-[75vh] lg:min-h-[88vh] max-w-7xl px-4 sm:px-6 lg:px-10">
+      <div className="relative z-10 mx-auto flex items-start md:items-center min-h-[75vh] lg:min-h-[88vh] max-w-7xl px-4 sm:px-6 lg:px-10">
         <div className="grid w-full grid-cols-1 gap-10 lg:grid-cols-2 items-center">
           {/* Text Section */}
           <motion.div
@@ -29,7 +29,7 @@ export default function Hero() {
             transition={{ duration: 0.7 }}
             className="text-white text-center lg:text-left"
           >
-            <h1 className="text-5xl sm:text-4xl lg:text-6xl font-bold leading-tight">
+            <h1 className="text-4xl sm:text-4xl lg:text-6xl font-bold leading-tight">
               Spring Premium <br className="hidden sm:block" />
               Drinking Water
             </h1>
